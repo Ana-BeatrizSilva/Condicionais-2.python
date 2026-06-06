@@ -1,0 +1,339 @@
+1. Uma biblioteca escolar permite empréstimos apenas para alunos que não possuem multas pendentes.
+
+O programa deve receber:
+
+Nome do aluno
+Quantidade de multas pendentes
+
+Exiba:
+
+"Empréstimo autorizado" se não houver multas.
+"Regularize sua situação antes de pegar livros" caso contrário.
+
+=======================================
+
+2. Um aquário de peixes ornamentais deve permanecer entre 24°C e 28°C.
+
+Receba a temperatura atual da água e informe:
+
+"Temperatura ideal" se estiver na faixa.
+"Água muito fria" se estiver abaixo de 24°C.
+"Água muito quente" se estiver acima de 28°C.
+
+=======================================
+
+3. Uma loja oferece frete grátis apenas para compras acima de R$150.
+
+Receba o valor da compra.
+
+Exiba:
+
+"Frete grátis" para compras acima de R$150.
+"Frete cobrado" para os demais casos.
+
+=======================================
+
+4. Uma corrida beneficente classifica os participantes de acordo com o tempo concluído:
+
+Até 30 minutos → Ouro
+Até 45 minutos → Prata
+Até 60 minutos → Bronze
+Acima disso → Participação
+
+Receba o tempo do corredor e exiba sua categoria.
+
+=======================================
+
+5. Um sistema exige que a senha:
+
+Tenha pelo menos 8 caracteres.
+Não seja exatamente "12345678".
+
+Receba uma senha e informe:
+
+"Senha aceita"
+"Senha inválida"
+
+Utilize condicionais e a função len().
+
+=======================================
+
+6. Um parque de diversões oferece descontos conforme a idade:
+
+Menores de 12 anos → 50% de desconto
+Entre 12 e 59 anos → sem desconto
+60 anos ou mais → 30% de desconto
+
+Receba:
+
+Idade
+Valor do ingresso
+
+Calcule e exiba o valor final a ser pago.
+
+=======================================
+
+7. Um curso técnico utiliza dois critérios para aprovação:
+
+Média final maior ou igual a 7.
+Frequência mínima de 75%.
+
+Receba:
+
+Média final
+Frequência (%)
+
+Exiba:
+
+"Aprovado"
+"Reprovado por nota"
+"Reprovado por frequência"
+"Reprovado por nota e frequência
+
+=======================================
+
+8. Um aplicativo monitora o nível de combustível de veículos.
+
+Receba a porcentagem do tanque.
+
+Exiba:
+
+"Tanque cheio" → acima de 75%
+"Nível adequado" → entre 40% e 75%
+"Abasteça em breve" → entre 15% e 39%
+"Combustível crítico" → abaixo de 15%
+
+=======================================
+
+9. Uma empresa utiliza drones para entregas.
+
+Para uma entrega ser autorizada:
+
+O peso do pacote deve ser de no máximo 5 kg.
+A velocidade do vento deve ser menor ou igual a 30 km/h.
+
+Receba:
+
+Peso do pacote
+Velocidade do vento
+
+Informe:
+
+"Entrega autorizada"
+"Peso excedido"
+"Vento acima do permitido"
+"Peso e vento fora dos limites"
+
+=======================================
+
+10. Uma cafeteria possui a seguinte promoção:
+
+Compras acima de R$50 ganham um cookie grátis.
+Clientes cadastrados acumulam pontos.
+Se o cliente for cadastrado e gastar mais de R$100, recebe também um café gratuito.
+
+Receba:
+
+Valor da compra
+Se o cliente é cadastrado (S ou N)
+
+Exiba todas as vantagens que ele recebeu.
+
+=======================================
+
+11. Uma companhia aérea possui as seguintes regras para bagagem de mão:
+
+Peso máximo: 10 kg
+Altura máxima: 55 cm
+Largura máxima: 35 cm
+Profundidade máxima: 25 cm
+
+Receba as quatro informações.
+
+Exiba:
+
+"Bagagem aprovada" se cumprir todos os requisitos.
+Caso contrário, informe quais critérios foram violados.
+
+=======================================
+
+12. Uma instituição concede bolsas segundo as seguintes regras:
+
+Bolsa Integral
+Média ≥ 9
+Renda familiar ≤ R$2.000
+Bolsa Parcial
+Média ≥ 7
+Renda familiar ≤ R$4.000
+Sem bolsa
+Todos os demais casos
+
+Receba:
+
+Média do aluno
+Renda familiar
+
+Informe o benefício obtido.
+
+=======================================
+
+13. Um servidor envia alertas conforme seu uso de CPU.
+
+Até 60% → Normal
+Acima de 60% até 80% → Atenção
+Acima de 80% até 95% → Crítico
+Acima de 95% → Emergência
+
+Entretanto:
+
+Se a temperatura do processador estiver acima de 90°C, o status deve ser automaticamente considerado Emergência, independentemente do uso da CPU.
+
+Receba:
+
+Uso da CPU
+Temperatura
+
+Determine o status final.
+
+=======================================
+
+14. Um laboratório químico possui as seguintes regras:
+O funcionário só pode entrar se:
+Possuir crachá válido.
+Estiver usando equipamento de proteção.
+Tiver concluído o treinamento obrigatório.
+Receba três respostas (S ou N).
+Informe:
+"Acesso liberado"
+Ou exatamente quais requisitos estão faltando.
+
+=======================================
+
+15. Uma livraria possui a seguinte promoção:
+
+Compras acima de R$100 → 10% de desconto.
+Compras acima de R$200 → 20% de desconto.
+Clientes VIP recebem mais 5% de desconto adicional.
+
+Receba:
+
+Valor da compra.
+Se é VIP (S ou N).
+
+Calcule o desconto total e o valor final.
+
+=======================================
+
+16. Um banco avalia pedidos de empréstimo usando:
+
+Aprovação automática
+Score ≥ 800
+Renda ≥ R$4.000
+Análise manual
+Score entre 600 e 799
+Reprovação
+Score abaixo de 600
+
+Contudo:
+
+Se o cliente possuir dívida ativa, o resultado deve ser:
+
+Empréstimo negado
+
+independentemente dos outros critérios.
+
+Receba:
+
+Score
+Renda
+Possui dívida ativa? (S ou N)
+
+=======================================
+
+17. Uma residência possui um sistema inteligente.
+
+Receba:
+
+Produção de energia (kWh)
+Consumo de energia (kWh)
+
+Situações:
+
+Produção maior que consumo → Excedente
+Produção igual ao consumo → Equilíbrio
+Produção menor que consumo → Déficit
+
+Além disso:
+
+Se o déficit ultrapassar 50 kWh, exiba também:
+
+Consumo crítico
+
+=======================================
+
+18. Um atleta só pode competir se:
+
+Idade entre 16 e 40 anos.
+Possuir atestado médico válido.
+
+Após ser aprovado, ele é classificado:
+
+Até 18 anos → Júnior
+Até 30 anos → Adulto
+Acima disso → Master
+
+Receba:
+
+Idade
+Possui atestado? (S ou N)
+
+Determine se ele pode competir e, em caso positivo, sua categoria.
+
+=======================================
+
+19. Um estacionamento cobra:
+
+Até 2 horas → R$8
+Até 5 horas → R$15
+Até 10 horas → R$25
+Acima de 10 horas → R$25 + R$3 por hora excedente
+
+Entretanto:
+
+Se o veículo permanecer mais de 24 horas, deve ser exibido:
+
+Consultar administração
+
+Receba o número de horas estacionado e determine o valor ou a mensagem adequada.
+
+=======================================
+
+20. Um hospital realiza uma triagem inicial.
+
+Receba:
+
+Temperatura corporal
+Frequência cardíaca
+Saturação de oxigênio
+
+Classificação:
+
+Emergência
+
+Se qualquer uma das condições ocorrer:
+
+Saturação abaixo de 90%
+Temperatura acima de 40°C
+Frequência cardíaca acima de 140 bpm
+Urgente
+
+Se qualquer uma ocorrer:
+
+Saturação entre 90% e 94%
+Temperatura entre 38°C e 40°C
+Frequência cardíaca entre 110 e 140 bpm
+Estável
+
+Todos os demais casos.
+
+Exiba a classificação final.
